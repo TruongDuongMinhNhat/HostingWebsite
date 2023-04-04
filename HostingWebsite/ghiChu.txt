@@ -1,11 +1,13 @@
 Quy tắc commit: [Hành Động]_[Nội Dung]_[Ghi Chú (nếu có)]
     + [Hành Động]: 
-        * design: thiết kế website, xây dựng thành phần UI trên website.
-        * decorate: trang trí website, căn chỉnh, chỉnh màu,...
+        * des (design): thiết kế website, xây dựng thành phần UI trên website.
+        * dec (decorate): trang trí website, căn chỉnh, chỉnh màu,...
         * build: xây dựng code để xử lí thành phần website
+        * fix: sửa lại file hay chỉnh lại thành phần gì đó trong dự án
         * other: ngoài 3 thành phần trên.
     + [Nội Dung]: ghi chú được xong phần gì, hiện tại, tiến trình làm tới đâu. 
     + [Ghi Chú]: trong trường hợp có chỉnh sửa gì đó lên thì phải ghi chú là phan01, phan02
+Nếu phần hành động có làm nhiều thứ cùng lúc thì mỗi thứ cách nhau dấu "+"
 
 File nào đang làm ở website nào bỏ đúng thư mục của website đó, không bỏ lung tung.
 Xong được phần nào: CHỤP TOÀN MÀN HÌNH và bỏ vào thư mục "demo" và bỏ dúng chỗ "website đang làm". Nhớ commit

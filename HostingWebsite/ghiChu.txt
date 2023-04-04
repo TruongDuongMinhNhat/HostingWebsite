@@ -1,0 +1,32 @@
+Quy tắc commit: [Hành Động]_[Nội Dung]_[Ghi Chú (nếu có)]
+    + [Hành Động]: 
+        * design: thiết kế website, xây dựng thành phần UI trên website.
+        * decorate: trang trí website, căn chỉnh, chỉnh màu,...
+        * build: xây dựng code để xử lí thành phần website
+        * other: ngoài 3 thành phần trên.
+    + [Nội Dung]: ghi chú được xong phần gì, hiện tại, tiến trình làm tới đâu. 
+    + [Ghi Chú]: trong trường hợp có chỉnh sửa gì đó lên thì phải ghi chú là phan01, phan02
+
+File nào đang làm ở website nào bỏ đúng thư mục của website đó, không bỏ lung tung.
+Xong được phần nào: CHỤP TOÀN MÀN HÌNH và bỏ vào thư mục "demo" và bỏ dúng chỗ "website đang làm". Nhớ commit
+phần đã làm xong
+
+Yêu cầu phần làm việc ở bên ngoài phần .git, không được bỏ chung phần đang của mình vào .git. 
+
+Quy trình làm việc: Design -> Decorate -> Build 
+
+Phân công làm:
+    + Website 1 - (Home)
+        * Tài:
+            - Menu: phần title của website
+            - Started: phần get Started
+            - ChooseUS: phần "Why Choose US"
+        * Nhật:
+            - Slider: phần "The Best Hosting Offers"
+            - Services: phần Our Services
+            - Footer: của website
+            - Price: giá của tùy hosting
+    + Website 2 - (About Us)
+    + Website 3 - (Services)
+    + Website 4 - (New)
+    + Website 5 - (Contact)

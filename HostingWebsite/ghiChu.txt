@@ -4,7 +4,8 @@ Quy tắc commit: [Hành Động]_[Nội Dung]_[Ghi Chú (nếu có)]
         * dec (decorate): trang trí website, căn chỉnh, chỉnh màu,...
         * build: xây dựng code để xử lí thành phần website
         * fix: sửa lại file hay chỉnh lại thành phần gì đó trong dự án
-        * other: ngoài 3 thành phần trên.
+        * pic: chụp ảnh lại
+        * other: ngoài 5 thành phần trên.
     + [Nội Dung]: ghi chú được xong phần gì, hiện tại, tiến trình làm tới đâu. 
     + [Ghi Chú]: trong trường hợp có chỉnh sửa gì đó lên thì phải ghi chú là phan01, phan02
 Nếu phần hành động có làm nhiều thứ cùng lúc thì mỗi thứ cách nhau dấu "+"
@@ -20,14 +21,14 @@ Quy trình làm việc: Design -> Decorate -> Build
 Phân công làm:
     + Website 1 - (Home)
         * Tài:
-            - Menu: phần title của website
             - Started: phần get Started
-            - ChooseUS: phần "Why Choose US"
+            - Price: giá của tùy hosting
+            - Footer: footer của website
         * Nhật:
+            - Menu: phần title của website 
             - Slider: phần "The Best Hosting Offers"
             - Services: phần Our Services
-            - Footer: của website
-            - Price: giá của tùy hosting
+            - ChooseUS: phần "Why Choose US"
     + Website 2 - (About Us)
     + Website 3 - (Services)
     + Website 4 - (New)

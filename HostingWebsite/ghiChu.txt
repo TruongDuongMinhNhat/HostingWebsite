@@ -21,14 +21,14 @@ Quy trình làm việc: Design -> Decorate -> Build
 Phân công làm:
     + Website 1 - (Home)
         * Tài:
-            - Started: phần get Started
             - Price: giá của tùy hosting
+            - ChooseUS: phần "Why Choose US"
             - Footer: footer của website
         * Nhật:
             - Menu: phần title của website 
             - Slider: phần "The Best Hosting Offers"
+            - Started: phần get Started
             - Services: phần Our Services
-            - ChooseUS: phần "Why Choose US"
     + Website 2 - (About Us)
     + Website 3 - (Services)
     + Website 4 - (New)

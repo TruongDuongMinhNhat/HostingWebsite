@@ -179,26 +179,22 @@
     position: absolute;
     top: 170px;
     left: 1000px;
-    z-index: 0;
 }
 
 .cloud1 {
     position: absolute;
     top: 230px;
     left: 300px;
-    z-index: 0;
 }
 
 .cloud2 {
     position: absolute;
     top: 280px;
     left: 700px;
-    z-index: 0;
 }
 
 .cloud3 {
     position: absolute;
     top: 330px;
     left: -100px;
-    z-index: 0;
 }

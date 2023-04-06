@@ -29,9 +29,8 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    position: fixed;
     align-items: center;
-    background-color: transparent;
+    background-color: rgb(32,14,53);
 }
 
 .header--smaller {

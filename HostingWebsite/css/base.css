@@ -1,3 +1,9 @@
+/* Khởi tạo biến */
+:root {
+    --aqua-color: rgb(26,233,193);
+}
+
+/* CSS */
 * {
     margin: 0px;
     padding: 0px;
@@ -5,4 +11,16 @@
 
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display-hide {
+    display: none !important;
+}
+
+.display-show {
+    display: block !important;
+}
+
+.page-selected {
+    color: var(--aqua-color) !important;
 }

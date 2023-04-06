@@ -32,6 +32,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: transparent;
+    z-index: 5;
 }
 
 .header--smaller {

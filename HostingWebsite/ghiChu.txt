@@ -5,7 +5,6 @@ Quy tắc commit: [Hành Động]_[Nội Dung]_[Ghi Chú (nếu có)]
         * build: xây dựng code để xử lí thành phần website
         * fix: sửa lại file hay chỉnh lại thành phần gì đó trong dự án
         * pic: chụp ảnh lại
-	* del: xóa một file bất kì
         * other: ngoài 5 thành phần trên.
     + [Nội Dung]: ghi chú được xong phần gì, hiện tại, tiến trình làm tới đâu. 
     + [Ghi Chú]: trong trường hợp có chỉnh sửa gì đó lên thì phải ghi chú là phan01, phan02

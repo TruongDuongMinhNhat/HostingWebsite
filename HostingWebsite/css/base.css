@@ -1,6 +1,9 @@
 /* Khởi tạo biến */
 :root {
     --aqua-color: rgb(26,233,193);
+    --light-aqua-color: rgb(197,251,241);
+    --light-grey-color: rgb(214,227,227);
+    --lighter-grey-color: rgb(245,247,248);
 }
 
 /* CSS */

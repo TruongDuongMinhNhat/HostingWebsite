@@ -26,11 +26,12 @@
 /* CSS */
 .header {
     height: 124px;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(32,14,53);
+    background-color: transparent;
 }
 
 .header--smaller {

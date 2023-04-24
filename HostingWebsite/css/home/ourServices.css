@@ -1,13 +1,3 @@
-/* Animation */
-@keyframes shadowAnimation {
-    from {
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-
 /* CSS Style */
 .ourServices {
     display: flex;
@@ -17,10 +7,6 @@
     width: 100%;
     height: 735px;
     background-image: url("/HostingWebsite/img/home/services.png");
-}
-
-.ourServices--animation {
-    animation: shadowAnimation 1s;
 }
 
 .ourServices-title {

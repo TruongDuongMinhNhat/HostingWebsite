@@ -5,6 +5,6 @@ window.addEventListener('load', addAnimation);
 
 function addAnimation() {
     if(getServices.getBoundingClientRect().top < window.innerHeight) {
-        getServices.classList.add("ourServices--animation");
+        getServices.classList.add("showAnimation");
     }
 }

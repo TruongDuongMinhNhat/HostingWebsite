@@ -5,7 +5,7 @@ window.addEventListener("load", setClassAnimation);
 
 function setClassAnimation(){
     if(getBuilding.getBoundingClientRect().top < window.innerHeight) {
-        getBuilding.classList.add("building--animation");
-        getBuilding.classList.add("building--animation");
+        getBuilding.classList.add("showAnimation");
+        getBuilding.classList.add("showAnimation");
     }
 }

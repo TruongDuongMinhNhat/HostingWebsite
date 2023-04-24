@@ -1,23 +1,8 @@
-/* Animation */
-@keyframes shadowAnimation {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 /* CSS */
 .building {
     width: 100%;
     height: 135px;
     background-color: rgb(113,86,145);
-}
-
-.building--animation {
-    animation: shadowAnimation 2s;
 }
 
 .building-container {

@@ -6,6 +6,16 @@
     --lighter-grey-color: rgb(245,247,248);
 }
 
+/* Animation */
+@keyframes shadowAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 /* CSS */
 * {
     margin: 0px;
@@ -14,6 +24,10 @@
 
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .display-hide {
@@ -28,6 +42,6 @@ html {
     color: var(--aqua-color) !important;
 }
 
-body {
-    overflow-x: hidden;
+.showAnimation {
+    animation: shadowAnimation 2s;
 }

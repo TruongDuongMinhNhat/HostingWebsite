@@ -6,7 +6,7 @@ window.addEventListener("load", setClassAnimation);
 
 function setClassAnimation(){
     if(getChooseUs.getBoundingClientRect().top < window.innerHeight) {
-        getChooseUs.classList.add("chooseUs--animation");
-        getChooseUs.classList.add("chooseUs--animation");
+        getChooseUs.classList.add("showAnimation");
+        getChooseUs.classList.add("showAnimation");
     }
 }

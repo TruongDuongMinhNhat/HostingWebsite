@@ -5,6 +5,6 @@ window.addEventListener('load', addAnimation);
 
 function addAnimation() {
     if(getPack.getBoundingClientRect().top < window.innerHeight) {
-        getPack.classList.add("list-pack--animation");
+        getPack.classList.add("showAnimation");
     }
 }

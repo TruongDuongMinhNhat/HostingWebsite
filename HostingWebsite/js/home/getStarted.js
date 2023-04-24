@@ -7,7 +7,7 @@ window.addEventListener("load", setClassAnimation);
 
 function setClassAnimation(){
     if(getGetStarted.getBoundingClientRect().top < window.innerHeight) {
-        getTitle.classList.add("getStarted--animation");
-        getProgress.classList.add("getStarted--animation");
+        getTitle.classList.add("showAnimation");
+        getProgress.classList.add("showAnimation");
     }
 }

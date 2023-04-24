@@ -27,3 +27,7 @@ html {
 .page-selected {
     color: var(--aqua-color) !important;
 }
+
+body {
+    overflow-x: hidden;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/HostingWebsite/css/services/searchDomain.css">
     <link rel="stylesheet" href="/HostingWebsite/css/services/slider.css">
     <link rel="stylesheet" href="/HostingWebsite/css/header.css">
     <link rel="stylesheet" href="/HostingWebsite/css/base.css">
@@ -52,6 +53,28 @@
                 <img class="cloud2" src="/HostingWebsite/img/cloud.png"></img>
                 <img class="cloud3" src="/HostingWebsite/img/cloud.png"></img>
             </section>
+
+            <!-- Search Domain -->
+            <form class="search-domain" action="">
+                <div class="domain-input">
+                    <input type="text" placeholder="yourdomain" required>
+                    <div class="domain-name">
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                        <span>.io</span>
+                    </div>
+                    <ul class="domain-name-list" id="domain-name-js">
+                        <li>.io</li>
+                        <li>.com</li>
+                        <li>.net</li>
+                    </ul>
+                </div>
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search
+                </button>
+            </form>
+
+            
         </div>
 
         <!-- Footer -->
@@ -124,6 +147,7 @@
         </footer> 
     </div>
 </body>
+<script src="/HostingWebsite//js/services/searchDomain.js"></script>
 <script src="/HostingWebsite/js/services/slider.js"></script>
 <script src="/HostingWebsite/js/header.js"></script>
 <script src="/HostingWebsite/js/footer.js"></script>

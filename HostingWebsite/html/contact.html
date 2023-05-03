@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/HostingWebsite/css/contact/searchDomain.css">
     <link rel="stylesheet" href="/HostingWebsite/css/contact/slider.css">
     <link rel="stylesheet" href="/HostingWebsite/css/footer.css">
     <link rel="stylesheet" href="/HostingWebsite/css/header.css">
     <link rel="stylesheet" href="/HostingWebsite/css/base.css">
     <link rel="shortcut icon" href="/HostingWebsite/img/LogoWebsite.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="/HostingWebsite/font/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="/HostingWebsite/font/themify-icons/themify-icons.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,10 +29,10 @@
                 <div class="list-items">
                     <a href="/HostingWebsite/html/services.html">Services</a>
                 </div>
-                <div class="list-items item--choosen">
+                <div class="list-items">
                     <a href="/HostingWebsite/html/news.html">News</a>
                 </div>
-                <div class="list-items">
+                <div class="list-items item--choosen">
                     <a href="#">Contact</a>
                 </div>
             </div>
@@ -52,6 +55,26 @@
                 <img class="cloud2" src="/HostingWebsite/img/cloud.png"></img>
                 <img class="cloud3" src="/HostingWebsite/img/cloud.png"></img>
             </section>
+
+            <!-- Search domain -->
+            <form class="search-domain" action="">
+                <div class="domain-input">
+                    <input type="text" placeholder="yourdomain" required>
+                    <div class="domain-name">
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                        <span>.io</span>
+                    </div>
+                    <ul class="domain-name-list" id="domain-name-js">
+                        <li>.io</li>
+                        <li>.com</li>
+                        <li>.net</li>
+                    </ul>
+                </div>
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search
+                </button>
+            </form>
         </div>
 
         <!-- Footer -->
@@ -126,6 +149,7 @@
         </footer>
     </div>
 </body>
+<script src="/HostingWebsite/js/contact/searchDomain.js"></script>
 <script src="/HostingWebsite/js/contact/slider.js"></script>
 <script src="/HostingWebsite/js/header.js"></script>
 <script src="/HostingWebsite/js/footer.js"></script>

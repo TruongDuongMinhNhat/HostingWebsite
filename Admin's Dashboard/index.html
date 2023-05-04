@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="font/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="extension/css/bootstrap.css">
     <link rel="shortcut icon" href="img/dashboard_logo.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +15,117 @@
     <div class="main">
         <!-- Header -->
         <header class="header">
-
+            <a href="#">CONCEPT</a>
+            <div class="header-navs">
+                <div class="input-group-sm col-5">
+                    <input class="form-control" type="text" placeholder="Search..">
+                </div>
+                <div class="notice-menu" href="#">
+                    <i class="fa-solid fa-bell"></i>
+                    <div id="bell-notice"></div>
+                    <div class="notice-dropdown">
+                        <div class="notice-title">Notification</div>
+                        <ul class="notice-list">
+                            <li class="notice-items notice-items--choosen">
+                                <img src="img/avatar-2.jpg" width="32px" height="32px" alt="">
+                                <div class="notice-content">
+                                    <div class="notice-content-title">
+                                        <span>Jeremy Rakestraw</span> accepted your invitation to join the team
+                                    </div>
+                                    <div class="notice-content-date">2 MIN AGO</div>
+                                </div>
+                            </li>
+                            <li class="notice-items">
+                                <img src="img/avatar-3.jpg" width="32px" height="32px" alt="">
+                                <div class="notice-content">
+                                    <div class="notice-content-title">
+                                        <span>John Abraham</span> is now following you 
+                                    </div>
+                                    <div class="notice-content-date">2 DAYS AGO</div>
+                                </div>
+                            </li>
+                            <li class="notice-items">
+                                <img src="img/avatar-4.jpg" width="32px" height="32px" alt="">
+                                <div class="notice-content">
+                                    <div class="notice-content-title">
+                                        <span>Monaan Pechi</span> is watching your main repository
+                                    </div>
+                                    <div class="notice-content-date">2 MIN AGO</div>
+                                </div>
+                            </li>
+                            <li class="notice-items">
+                                <img src="img/user.jpg" width="32px" height="32px" alt="">
+                                <div class="notice-content">
+                                    <div class="notice-content-title">
+                                        <span>Jessica Caruso</span> accepted your invitation to join the team
+                                    </div>
+                                    <div class="notice-content-date">2 MIN AGO</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="notice-view">
+                            <a href="">View all notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-menu" href="#"> 
+                    <i class="fas fa-fw fa-th"></i>
+                    <div class="link-dropdown">
+                        <div class="link-list">
+                            <div class="link-items">
+                                <img src="img/github.png" width="32px" height="32px" alt="">
+                                <a href="">GitHub</a>
+                            </div>
+                            <div class="link-items">
+                                <img src="img/dribbble.png" width="32px" height="32px" alt="">
+                                <a href="">Dribble</a>
+                            </div>
+                            <div class="link-items">
+                                <img src="img/dropbox.png" width="32px" height="32px" alt="">
+                                <a href="">Dropbox</a>
+                            </div>
+                            <div class="link-items">
+                                <img src="img/bitbucket.png" width="32px" height="32px" alt="">
+                                <a href="">Bitbucket</a>
+                            </div>
+                            <div class="link-items">
+                                <img src="img/mail_chimp.png" width="32px" height="32px" alt="">
+                                <a href="">Mail Chimp</a>
+                            </div>
+                            <div class="link-items">
+                                <img src="img/slack.png" width="32px" height="32px" alt="">
+                                <a href="">Slack</a>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <span>More</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-menu" href="#">
+                    <img src="img/user.jpg" width="32px" height="32px" alt="">
+                    <div class="account-dropdown">
+                        <div class="account-info">
+                            <div>John Abraham</div>
+                            <div>Avaiable</div>
+                        </div>
+                        <div class="account-btn">
+                            <div class="account-items">
+                                <i class="fa-solid fa-user"></i>
+                                Account
+                            </div>
+                            <div class="account-items">
+                                <i class="fa-solid fa-gear"></i>
+                                Setting
+                            </div>
+                            <div class="account-items">
+                                <i class="fa-solid fa-power-off"></i>
+                                Logout
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
 
         <!-- Container -->
@@ -25,4 +139,5 @@
         </div>
     </div>
 </body>
+<script src="js/header.js"></script>
 </html>

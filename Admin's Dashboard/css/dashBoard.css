@@ -1,0 +1,54 @@
+.menu-dashboard-list {
+    list-style: none;
+    display: none;
+    padding: 0px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(36,40,73);
+}
+
+.dashboard-items > div {
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-items > div:hover > span {
+    color: white;
+}
+
+.dashboard-items > .e_commerce-list > li,
+.dashboard-items > .influencer-list > li {
+    cursor: pointer;
+}
+
+/* E-Commerce */
+.e_commerce-list {
+    list-style: none;
+    padding: 0px 12px;
+    display: none;
+}
+
+.e_commerce-list li {
+    padding: 6px 12px;
+}
+
+.e_commerce-list li:hover {
+    color: white;
+}
+
+/* Influencer */
+.influencer-list {
+    list-style: none;
+    padding: 0px 12px;
+    display: none;
+}
+
+.influencer-list li {
+    padding: 6px 12px;
+}
+
+.influencer-list li:hover {
+    color: white;
+}

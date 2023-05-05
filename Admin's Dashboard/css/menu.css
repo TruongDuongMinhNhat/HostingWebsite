@@ -1,0 +1,67 @@
+.menu {
+    width: 264px;
+    height: 100%;
+    background-color: rgb(14,12,40);
+    padding: 14px;
+    position: fixed;
+    left: 0px;
+    color: rgb(164,170,219);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.menu-items > span {
+    padding: 10px 14px;
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+}
+
+.menu-items-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-items > div{
+    padding: 12px;
+}
+
+.list-items > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.list-items > div > a {
+    text-decoration: none;
+    color: rgb(164,170,219);
+}
+
+.list-items > div > a > i {
+    margin-right: 9px;
+}
+
+.list-items > div:hover {
+    cursor: pointer;
+    background-color: rgb(36,40,73);
+}
+
+.list-items > div:hover > a > span {
+    color: white;
+}
+
+.background--choosen {
+    background-color: rgb(36,40,73);
+}
+
+.item--choosen {
+    color: white;
+}
+
+.arrow--rotate {
+    transform: rotate(90deg);
+}

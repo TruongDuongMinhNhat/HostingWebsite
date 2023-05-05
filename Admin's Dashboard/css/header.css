@@ -2,9 +2,12 @@
     width: 100%;
     height: 67px;
     display: flex;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1;
+    top: 0px;
 }
 
 .header > a {

@@ -8,6 +8,12 @@
     color: rgb(164,170,219);
     overflow: scroll;
     overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.menu::-webkit-scrollbar{
+    display: none;
 }
 
 .menu-items > span {

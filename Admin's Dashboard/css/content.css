@@ -89,3 +89,115 @@
 .price--decrease {
     color: rgb(255,72,128);
 }
+
+/* Content Orders */
+.content-orders {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-orders-table {
+    width: 765px;
+    height: fit-content;
+    background-color: white;
+}
+
+.content-orders-title {
+    width: 100%;
+    height: 52px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content-orders-table > table {
+    width: 100%;
+    height: 326px;
+}
+
+.tables-header-column {
+    width: 100%;
+    height: 65.5px;
+    color: rgb(61,64,92);
+    font-size: 13px;
+    background-color: rgb(249,249,255);
+    border-top: 1px solid rgb(230,230,242);
+    border-bottom: 1px solid rgb(230,230,242);
+}
+
+.tables-header-column > th {
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.table-rows-column {
+    width: 100%;
+    height: 66px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(230,230,242);
+}
+
+.table-rows-column > td {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(116,119,144);
+}
+
+.transit {
+    background-color: rgb(255,183,57);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.delivered {
+    background-color: rgb(33,174,65);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.content-orders-btn {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.content-orders-btn > button {
+    width: fit-content;
+    height: 42px;
+    padding: 9px 16px;
+    background-color: white;
+    color: rgb(119,119,170);
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(230,230,242);
+}
+
+.content-orders-btn > button:hover {
+    background-color: rgb(240,240,248);
+}
+
+.content-orders-graph {
+    width: 234px;
+    height: 466px;
+    background-color: white;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-orders-graph > div {
+    font-weight: 600;
+    color: rgb(61,64,92);
+    height: 55px;
+    width: 100%;
+    padding: 12px 20px;
+    border-bottom: 1px solid rgb(230,230,242);
+}
